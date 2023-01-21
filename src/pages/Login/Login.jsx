@@ -17,11 +17,7 @@ const Login = () => {
   return (
     <div className={styles.box}>
       <div className={styles.logo}>
-        <img
-          src="https://my.asos.com/Content/images/asos-logo-2022-93x28.png"
-          alt="ASOS Logo"
-          loading="lazy"
-        />
+  
       </div>
       <div className={styles.container}>
         <Tabs isFitted variant="enclosed" backgroundColor="white">
