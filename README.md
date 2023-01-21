@@ -2,9 +2,9 @@
 
 ASOS is a British online fashion and cosmetic retailer. The company was founded in 2000 in London, primarily aimed at young adults.
 
-# ASOS CLone
+# AXOX (ASOS Clone)
 
-This is the clone of ASOS website which we have done during our Unit 4 construct week at Masai. Its functional clone of the website. 
+This is the clone of ASOS website which we have done during our Unit 4 construct week at Masai. Its functional clone of this website. 
 ## Technologies used
 
 - HTML
@@ -17,7 +17,7 @@ This is the clone of ASOS website which we have done during our Unit 4 construct
 
 ## Functional things
 
-- User signup page and login page with form validation and data managed with  json server
+- User signup page and login page with form validation and data managed with json server
 - Home page
 - 3 product pages with data managed with json server
 - Sorting and Filtering functionality
@@ -34,34 +34,26 @@ VS Code
 Clone the project
 
 ```bash
-#   https://github.com/aakarsh604/Asos-Clone
+#   https://github.com/Kunjan0/civil-kettle-7397.git
 #   run json server on local host on port 8080
 ```
 
 
 ## Website Flow
 
-- Signup & Login pages by Rovin and Deepanshu
+- Signup & Login pages
 ![](./src//assets/LoginPage.png)
 
-- Homepage, Men & Women pages by Aakarsh
+- Homepage, Men & Women pages 
 ![](./src//assets/Menpage.png)
 
-- Product pages by Manish Singh
+- Product pages 
 ![](./src//assets/ProductsPage.png)
 
-- Product Details & Cart pages by Saurav
+- Product Details & Cart pages 
 ![](./src//assets/ProductDetailsPage.png)
 ![](./src//assets/CartPage.png)
 
--  Checkout and Payment pages by Deepanshu
+-  Checkout and Payment pages
 ![](./src//assets/CheckoutPage.png)
 ![](./src//assets/PaymentPage.png)
-
-## Authors
-
-- [Aakarsh](https://github.com/aakarsh604)
-- [Deepanshu Chug](https://github.com/DeepanshuChugh)
-- [Saurav Samui](https://github.com/sauravsamui)
-- [Manish Singh](https://github.com/ManishSingh64)
-- [Rovin Singh](https://github.com/rovin-singh)
