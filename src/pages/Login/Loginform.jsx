@@ -23,7 +23,7 @@ const LoginForm = () => {
     e.preventDefault();
     dispatch(loginReq(users));
     toast({
-        title: `Welcome to ASOS`,
+        title: `Welcome to AXOX`,
         status: "success",
         position: "top",
         isClosable: true,
