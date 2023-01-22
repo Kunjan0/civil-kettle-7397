@@ -62,6 +62,9 @@ const NavbarTop = () => {
         <Nav.Link as={Link} to="/cart">
           <FaShoppingBag />
         </Nav.Link>
+        <Nav.Link as={Link} to="/admin">
+<button >ADMIN</button>
+        </Nav.Link>
       </Container>
     </Navbar>
   );
