@@ -9,7 +9,7 @@ let initialState = {
   loading: false,
   error: false,
   data: [],
-  // sortedData:[]
+ 
 };
 
 export const productsReducer = (state = initialState, { type, payload }) => {
@@ -22,7 +22,7 @@ export const productsReducer = (state = initialState, { type, payload }) => {
       };
     }
     case PRODUCTS_SUCESS: {
-      // console.log(payload) payload :[el,el,el.....]
+     
       return {
         ...state,
         loading: false,
