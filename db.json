@@ -703,40 +703,31 @@
   ],
   "cartItem": [
     {
+      "productName": "AXOX Actual oversized t-shirt with health & wellbeing back print logo in orange",
+      "Image": "https://images.asos-media.com/products/asos-actual-oversized-t-shirt-with-health-wellbeing-back-print-logo-in-orange/203291076-1-orange?$n_640w$&wid=513&fit=constrain",
+      "price": "60.00",
+      "size": "XS",
+      "color": "ORANGE",
+      "quantity": 1,
+      "id": 18
+    },
+    {
       "productName": "AXOX DESIGN relaxed revere linen mix shirt in scribble conversational print",
       "Image": "https://images.asos-media.com/products/asos-design-relaxed-revere-linen-mix-shirt-in-scribble-conversational-print/202212414-1-beige?$n_640w$&wid=513&fit=constrain",
       "price": "80.00",
       "size": "XS",
       "color": "Rainbow",
-      "quantity": 3,
+      "quantity": 1,
       "id": 19
     },
     {
-      "productName": "COLLUSION Unisex t-shirt with monster print in black",
-      "Image": "https://images.asos-media.com/products/collusion-unisex-t-shirt-with-monster-print-in-black/202067318-1-black?$n_640w$&wid=513&fit=constrain",
-      "price": "9.25",
+      "productName": "AXOX DESIGN co-ord embellished floral mini dress in fil coupe - LGREEN and skirt",
+      "Image": "https://images.asos-media.com/groups/asos-design-co-ord-embellished-floral-mini-dress-in-fil-coupe-lgreen-and-skirt/72527-group-1?$n_640w$&wid=513&fit=constrain",
+      "price": "21.25",
       "size": "XS",
-      "color": "BLACK",
+      "color": "Teal",
       "quantity": 1,
-      "id": 39
-    },
-    {
-      "productName": "Influence peter pan collar midi dress in bright pink",
-      "Image": "https://images.asos-media.com/products/influence-peter-pan-collar-midi-dress-in-bright-pink/201737178-1-brightpink?$n_320w$&wid=317&fit=constrain",
-      "price": "24.00",
-      "size": "XS",
-      "color": "Bright Pink",
-      "quantity": 1,
-      "id": 33
-    },
-    {
-      "productName": "River Island round toe derby shoes in brown",
-      "Image": "https://images.asos-media.com/products/vans-old-skool-trainers-in-orange/201666941-1-orange?$n_320w$&wid=317&fit=constrain",
-      "price": "37.40",
-      "size": "XS",
-      "color": "Orange",
-      "quantity": 1,
-      "id": 2
+      "id": 34
     }
   ],
   "users": [
@@ -745,6 +736,12 @@
       "password": "12345",
       "name": "Kunjan",
       "id": 1
+    },
+    {
+      "email": "kballawar00@gmail.com",
+      "password": "12345",
+      "name": "Kunjan",
+      "id": 2
     }
   ]
 }
