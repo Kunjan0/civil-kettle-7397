@@ -4,7 +4,7 @@ ASOS is a British online fashion and cosmetic retailer. The company was founded 
 
 # AXOX (ASOS Clone)
 
-This is the clone of ASOS website which we have done during our Unit 4 construct week at Masai. Its functional clone of this website. 
+This is the clone of ASOS website which i have done during my Unit 4 construct week at Masai. Its functional clone of this website. 
 ## Technologies used
 
 - HTML
