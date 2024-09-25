@@ -16,7 +16,7 @@ This is the clone of ASOS website which i have done during my Unit 4 construct w
 
 ## Functional things
 
-- User signup page and login page with form validation and data managed with json server
+- User signup page and login page with form validation
 - Home page
 - 3 product pages with data managed with deployed server from render 
 - Sorting and Filtering functionality
