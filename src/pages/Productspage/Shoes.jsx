@@ -139,12 +139,12 @@ const Shoes = () => {
               onChange={(e) => handleOnSelect(e)}
             >
               <option value="none">All Colors</option>
-              <option value="Black">black</option>
-              <option value="Orange">orange</option>
-              <option value="Green">green</option>
-              <option value="White">white</option>
-              <option value="Blue">blue</option>
-              <option value="Beige-Brown">beige brown</option>
+              <option value="Black">Black</option>
+              <option value="Orange">Orange</option>
+              <option value="Green">Green</option>
+              <option value="White">White</option>
+              <option value="Blue">Blue</option>
+              <option value="Beige-Brown">Beige brown</option>
             </Select>
             <Select variant="filled" placeholder="Body Fit" w={200} ml={3} />
           </Stack>

@@ -54,7 +54,7 @@ const Footer = () => {
               <Spacer/>
         </Flex>
         <Flex p="10px 120px" h="55px" fontSize="xs" bg="#dddddd" align="center">
-          <Box>© 2023 ASOS</Box>
+          <Box>© 2023 AXOX</Box>
           <Spacer/>
           <Box>{`Privacy & Cookies   |   Ts&Cs   |   Accessibility`}</Box>
         </Flex>
