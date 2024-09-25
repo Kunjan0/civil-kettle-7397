@@ -24,7 +24,7 @@ This is the clone of ASOS website which i have done during my Unit 4 construct w
 - Checkout page 
 - Payment page with payment confirmation
 
-## Netlify Link- https://animated-fudge-83fd4f.netlify.app/
+## Vercel Link- https://civil-kettle-7397-three.vercel.app/
 
 
 ## Run Locally
