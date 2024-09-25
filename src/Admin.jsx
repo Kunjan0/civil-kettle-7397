@@ -21,7 +21,7 @@ const Admin = () => {
     }
 
     let product_page = () => {
-        return fetch("http://localhost:8080/Men", {
+        return fetch("https://axox-backend.onrender.com/Men", {
             method: "POST",
             headers: { "content-type": "application/json", },
             body: JSON.stringify({

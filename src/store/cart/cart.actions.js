@@ -6,14 +6,14 @@ import { ADD_TO_CART_ERROR, ADD_TO_CART_LOADING, ADD_TO_CART_SUCCESS, GET_ITEM_C
 export const getItemApi=()=>(dispatch)=>{
     dispatch({type:GET_ITEM_CART_LOADING})
 
-    axios.get("http://localhost:8080/cartItem")
+    axios.get("https://axox-backend.onrender.com/cartItem")
     .then((res)=>(dispatch({type:GET_ITEM_CART_SUCCESS,payload:res.data})))
     .catch((r)=>(dispatch({type:GET_ITEM_CART_ERROR})))
 } 
 
 export const addCartApi=(item,s)=>(dispatch)=>{
      dispatch({type:ADD_TO_CART_LOADING})
-        axios.post("http://localhost:8080/cartItem",{
+        axios.post("https://axox-backend.onrender.com/cartItem",{
             productName:item.Brand_Name,
             Image:item.Image,
             price:item.Price,
@@ -29,7 +29,7 @@ export const addCartApi=(item,s)=>(dispatch)=>{
 export const removeCartApi=(id)=>(dispatch)=>{
    dispatch({type:REMOVE_FROM_CART_LOADING})
 
-   axios.delete(`http://localhost:8080/cartItem/${id}`)
+   axios.delete(`https://axox-backend.onrender.com/cartItem/${id}`)
    .then((res)=>(dispatch({type:REMOVE_FROM_CART_SUCCESS,payload:id})))
    .catch((r)=>(dispatch({type:REMOVE_FROM_CART_ERROR})))
 }
@@ -37,7 +37,7 @@ export const removeCartApi=(id)=>(dispatch)=>{
 export const updateCartApi=(id,quantity,size)=>(dispatch)=>{
    dispatch({type:UPDATE_CART_LOADING})
 
-   axios.patch(`http://localhost:8080/cartItem/${id}`,{
+   axios.patch(`https://axox-backend.onrender.com/cartItem/${id}`,{
       quantity:quantity,
       size:size
    }).then((res)=>(dispatch({type:UPDATE_CART_SUCCESS,payload:{id,quantity,size}})))
@@ -46,7 +46,7 @@ export const updateCartApi=(id,quantity,size)=>(dispatch)=>{
 
 export const getproductdetailsApi=(id)=>(dispatch)=>{
    dispatch({type:GET_PRODUCT_DETAILS_LOADING})
-   axios.get(` http://localhost:8080/Products/${id}`)
+   axios.get(` https://axox-backend.onrender.com/Products/${id}`)
       .then((res) => (dispatch({type:GET_PRODUCT_DETAILS_SUCCESS,payload:res.data})))
       .catch((r)=>(dispatch({type:GET_PRODUCT_DETAILS_ERROR})))
 }

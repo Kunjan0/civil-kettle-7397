@@ -7,7 +7,7 @@ export const loginReq = ({ email, password }) => (dispatch) => {
   dispatch({ type: LOGIN_LOADING })
   // success
   axios({
-    url: `http://localhost:8080/users?email=${email}&password=${password}`,
+    url: `https://axox-backend.onrender.com/users?email=${email}&password=${password}`,
     method: "GET"
   })
     .then((res) => {
@@ -28,7 +28,7 @@ export const logoutReq = () => (dispatch) => {
 }
 
 export const signup = ({ email, password, name }) => (dispatch) => {
-  return fetch("http://localhost:8080/users", {
+  return fetch("https://axox-backend.onrender.com/users", {
     method: "POST",
     headers: { "content-type": "application/json", },
     body: JSON.stringify({

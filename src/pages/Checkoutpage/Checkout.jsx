@@ -44,7 +44,7 @@ const Checkout = () => {
 
   useEffect(() => {
     const getcountry = async () => {
-      const rescountry = await fetch("http://localhost:8080/country");
+      const rescountry = await fetch("https://axox-backend.onrender.com/country");
       const rescon = await rescountry.json();
       setCountry(await rescon);
     };
@@ -54,7 +54,7 @@ const Checkout = () => {
   useEffect(() => {
     const getcountryImage = async () => {
       const rescountry = await fetch(
-        `http://localhost:8080/country/${countryId}`
+        `https://axox-backend.onrender.com/country/${countryId}`
       );
       const rescon = await rescountry.json();
       setCountryImage(await rescon);

@@ -6,7 +6,7 @@ const Searchbar = () => {
     const [SearchData, setSearchData] = useState([]);
     const [search, setSearch] = useState('');
     useEffect(() => {
-            const API_URL = `http://localhost:8080/shoes/?title=${search}`
+            const API_URL = `https://axox-backend.onrender.com/shoes/?title=${search}`
             axios
                 .get(API_URL)
                 .then(res => {

@@ -10,7 +10,7 @@ export const showProducts = (dispatch, value) => {
   dispatch({ type: PRODUCTS_LOADING });
 
   return axios
-    .get(`http://localhost:8080/${value}`)
+    .get(`https://axox-backend.onrender.com/${value}`)
     .then((r) => {
       dispatch({ type: PRODUCTS_SUCESS, payload: r.data });
     })
@@ -88,7 +88,7 @@ export const sort = (dispatch, value, data, products) => {
     case "none":
 
       return axios
-        .get(`http://localhost:8080/${products}`)
+        .get(`https://axox-backend.onrender.com/${products}`)
         .then((r) => {
           dispatch({ type: PRODUCTS_SUCESS, payload: r.data });
         })
