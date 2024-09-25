@@ -13,7 +13,6 @@ This is the clone of ASOS website which i have done during my Unit 4 construct w
 - React
 - Redux
 - Chakra UI
-- Json Server
 
 ## Functional things
 
